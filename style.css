@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+::selection {
+    background: #a57cf2;
+}
+.text-color-f2f2f2 {
+    color: #f2f2f2;
+}
+.text-color-343434 {
+    color: #343434;
+}
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+body {
+    font-family: Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+div#intro {
+    background: url(image/mountain_background.jpg) no-repeat center center;
+    background-size: cover;
+    height: fit-content;
+    min-height: 650px;
+    padding-top: 25px;
+}
+nav#navBar {
+    position: relative;
+}
+nav#navBar a, nav#navBar button {
+    display: inline-block;
+    text-decoration: none;
+}
+nav#navBar h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    font-weight: lighter;
+    height: 45px;
+    line-height: 45px;
+}
+nav#navBar a:last-child {
+    position: absolute;
+    right: 10px;
+    font-size: 17px;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-top: 7px;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+}
+button#loginBtn {
+    position: absolute;
+    right: 210px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 7px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    width: 100px;
+    border-radius: 25px;
+}
+button#loginBtn:hover, nav#navBar a:last-child:hover {
+    cursor: pointer;
+    background-color: rgba(73, 73, 73, 0.3);
+    transition: background-color 0.2s ease;
+}
+button#loginBtn:focus {
+    outline: none;
+}
+nav#navBar a:first-child:hover {
+    color: #42a4be;
+    transition: color 0.2s ease;
+}
+div#discoverCalm {
+    width: 1000px;
+    margin: 0px auto;
+    height: fit-content;
+    min-height: 570px;
+    padding-top: 130px;
+}
+div#discoverCalm div {
+    width: 464px;
+    height: fit-content;
+    float: left;
+    text-align: center;
+    display: inline;
+}
+div#discoverCalm div:last-child {
+    float: right;
+}
+div#discoverCalm h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+div#discoverCalm h2 {
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+a.start-ff-btn {
+    background: linear-gradient(113.26508509382597deg, rgba(6, 227, 250,1) 0.7096354166666667%,rgba(80, 119, 144,1) 72.57975260416666%);
+    text-decoration: none;
+    text-transform: uppercase;
+    height: fit-content;
+    overflow: hidden;
+    min-height: 72px;
+    line-height: 72px;
+    width: 464px;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
+a.start-ff-btn:hover {
+    background: linear-gradient(67.72461823363699deg, rgba(80, 119, 144,1) 16.26261393229167%,rgba(6, 227, 250,1) 78.55712890625%);
+}
+div#menuWrapper {
+    min-height: 530px;
+    height: fit-content;
+    background-color: #f2f2f2;
+    padding: 60px 0px;
+}
+div#menu {
+    text-align: center;
+}
+div#menu h1 {
+    text-transform: capitalize;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.navBtn {
+    height: fit-content;
+    min-height: 250px;
+    width: 236px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: -webkit-center;
+}
+.navBtn:hover {
+    cursor: pointer;
+}
+div#menu div::before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    background-image: url(image/sprite.png);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+div#navToMeditate::before {
+    background-position: 0px 0px;
+}
+div#navToSleep::before {
+    background-position: -100px 0px;
+}
+div#navToBody::before {
+    background-position: -100px -100px;
+}
+div#navToMusic::before {
+    background-position: 0px -100px;
+}
+div#menu h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    min-height: 30px;
+    line-height: 30px;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+div#menu h3 {
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 2px;
+    min-height: 100px;
+    line-height: 20px;
+    height: fit-content;
+}
+div#introPlusWrapper {
+    background: linear-gradient(89.86675448053984deg, rgba(6, 227, 250,1) 2.4446614583333335%,rgba(80, 119, 144,1) 97.626953125%);
+    min-height: 600px;
+    height: fit-content;
+    padding: 100px 0px;
+    text-align: center;
+}
+div#introPlus {
+    height: 600px;
+}
+div#introPlus h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+div#introPlus div {
+    width: 464px;
+    display: inline-block;
+    height: fit-content;
+    min-height: 350px;
+    margin-bottom: 50px;
+}
+div#introPlus h2 {
+    font-weight: lighter;
+    line-height: 35px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    position: relative;
+    text-align: left;
+}
+div#introPlus h2::before {
+    content: "\2713";
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    color: #f2f2f2;
+    position: absolute;
+    background-color: #53d477;
+    left: -35px;
+    text-align: center;
+}
+a#startFFBtn {
+    background: linear-gradient(207.7585453421899deg, rgba(0, 166, 190,1) 45.94962295416921%,rgba(0, 226, 123,1) 49.77833755070377%);
+    min-width: 314px;
+    width: fit-content;
+}
+a#startFFBtn:hover {
+    background: linear-gradient(208.67314073877878deg, rgba(0, 226, 123,1) 46.30226702173651%,rgba(0, 166, 190,1) 49.52644915064276%);
+}
+div#meditateWrapper {
+    height: fit-content;
+    min-height: 567px;
+    background: url(image/meditate_background.jpg) no-repeat center center;
+    background-size: cover;
+}
+div#meditate {
+    padding-top: 70px;
+    height: 567px;
+}
+div#meditate div, div#sleep div, div#body div, div#music div, div#spa div {
+    width: 464px;
+    height: fit-content;
+    min-height: 185px;
+}
+h1.sub-h1 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+p.sub-p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+a.sub-a {
+    width: 300px;
+    background: linear-gradient(113.32294594570294deg, rgba(250, 143, 191,1) 5.533854166666667%,rgba(138, 176, 250,1) 96.67968749999999%);
+}
+a.sub-a:hover {
+    background: linear-gradient(69.5410268783429deg, rgba(250, 143, 191,1) 22.641737196180554%,rgba(138, 176, 250,1) 85.4140896267361%);
+}
+div#sleepWrapper {
+    height: fit-content;
+    min-height: 722px;
+    background: url(image/aurora.jpg) no-repeat center center;
+    background-size: cover;    
+}
+div#sleep {
+    height: 722px;
+}
+div#sleep div:first-child {
+    margin-top: 160px;
+}
+div#sleep div:last-child {
+    margin-top: 40px;
+}
+div#bodyWrapper {
+    height: fit-content;
+    min-height: 633px;
+    position: relative;
+    background: linear-gradient(to right, rgba(160, 84, 124, 1), rgba(255, 255, 255, 0.86));
+}
+div#body {
+    height: 633px;
+    padding-top: 3px;
+}
+div#body div {
+    background: linear-gradient(to right, rgb(176, 112, 145), rgba(208, 182, 195, 0));
+    height: 630px;
+    padding-top: 180px;
+}
+div#bodyWrapper > div:first-child {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+div#bodyWrapper > div:first-child video {
+    margin-left: 20%;
+}
+div#musicWrapper {
+    height: fit-content;
+    min-height: 633px;
+    background: url(image/music_background.jpg) no-repeat center center;
+    background-size: cover;    
+}
+div#music {
+    height: 633px;
+    padding-top: 100px;
+}
+div#spaWrapper {
+    height: fit-content;
+    min-height: 564px;
+    background: url(image/spa.jpg) no-repeat center center;
+    background-size: cover;    
+}
+div#spa {
+    height: 564px;
+    padding-top: 150px;
+    letter-spacing: 3px;
+}
